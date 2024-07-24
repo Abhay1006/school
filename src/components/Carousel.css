@@ -1,0 +1,23 @@
+.carousel-item {
+    position: relative;
+    height: 50vh; /* Adjust height for better visibility */
+  }
+  
+  .carousel-image {
+    object-fit: cover;
+    object-position: center; /* Center the image to avoid clipping important parts */
+    height: 100%;
+    width: 100%;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.25rem;
+  }
+  
